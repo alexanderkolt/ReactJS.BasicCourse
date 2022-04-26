@@ -5,10 +5,11 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const myName = 'Alexander';
-ReactDOM.render(
+ReactDOM.render( 
   <React.StrictMode>
     <App name={myName} />
-  </React.StrictMode>,
+  </React.StrictMode>, 
+  
   document.getElementById('root')
 );
 

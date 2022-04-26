@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import Message from './Message';
 
 function App(props) {
   return (
@@ -20,8 +21,10 @@ function App(props) {
         </a>
         <h3>Hello, {props.name}!</h3>
       </header>
+      <Message name={props.name}  />
     </div>
   );
 }
 
 export default App;
+
